@@ -1,0 +1,99 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+  }
+  
+  .profile-info h2 {
+    font-size: 1.5rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  
+  .specialization {
+    font-size: 1.1rem;
+    color: #718096;
+    line-height: 1.6;
+  }
+  
+  .resume-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .resume-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .view-btn {
+    background: #4299e1;
+    color: white;
+  }
+  
+  .download-btn {
+    background: #48bb78;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .resume-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  @media (max-width: 768px) {
+    .profile-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .profile-info h1 {
+      font-size: 2rem;
+    }
+  
+    .resume-actions {
+      flex-direction: column;
+    }
+  }

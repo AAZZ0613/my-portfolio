@@ -1,0 +1,95 @@
+.projects-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    color: #718096;
+    margin-bottom: 3rem;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .project-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-number {
+    font-size: 2.5rem;
+    color: #4299e1;
+    margin: 0;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .tech-tags {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech-tag {
+    background: #f7fafc;
+    color: #4299e1;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid #bee3f8;
+  }
+  
+  .achievements-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .achievement-item {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+  }
+  
+  .achievement-icon {
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+  }
+  
+  .achievement-title {
+    color: #2d3748;
+    margin: 0 0 0.3rem 0;
+  }
+  
+  .achievement-description {
+    color: #718096;
+    margin: 0;
+    line-height: 1.5;
+  }
