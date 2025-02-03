@@ -3,6 +3,20 @@
 /*Student Number: 301480676*/
 /*Date: 2025-02-02*/
 .navbar {
-    background: #f8f9fa;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
   }
+}
