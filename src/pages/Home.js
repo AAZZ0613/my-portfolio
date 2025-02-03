@@ -6,14 +6,17 @@
 It contains a hero section with a title,
 a description and a button that links to the About page.*/
 import './Home.css';
+import { useNavigate } from 'react-router-dom';//import the useNavigate hook from the react-router-dom package
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <section className="hero">
       <div className="hero-content">
         <h1>Welcome to My Portfolio</h1>
         <p>Focusing on creating excellent web experiences</p>
-        <button onClick={() => window.location.href = '/about'}>Learn More →</button>
+        <button onClick={() => navigate('/about')}>Learn More →</button>
       </div>
     </section>
   );
