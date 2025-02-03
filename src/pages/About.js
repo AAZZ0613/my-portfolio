@@ -5,7 +5,7 @@
 /*Description: This is the About page of the portfolio website. 
 It contains the profile picture, name, specialization, and resume download/view buttons.*/
 import React from 'react';
-import profileImage from 'D:/JavaScript_Class/my-portfolio/src/picture.jpg';
+import profileImage from '../picture.jpg';
 import './About.css';
 
 export default function About() {

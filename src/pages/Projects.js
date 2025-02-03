@@ -4,9 +4,9 @@
 /*Date: 2025-02-02*/
 /*Description: This is the Projects page of the portfolio website.*/
 import React from 'react';
-import project1Img from 'D:/JavaScript_Class/my-portfolio/src/assets/images/Project1.jpg';
-import project2Img from 'D:/JavaScript_Class/my-portfolio/src/assets/images/Project2.jpg'; 
-import project3Img from 'D:/JavaScript_Class/my-portfolio/src/assets/images/Project3.jpg';
+import Project1Img from '../assets/images/Project1.jpg';
+import Project2Img from '../assets/images/Project2.jpg'; 
+import Project3Img from '../assets/images/Project3.jpg';
 import './Projects.css';
 
 export default function Projects() {
@@ -18,7 +18,7 @@ export default function Projects() {
 
       <div className="project-card">
         <div className="project-media">
-          <img src={project1Img} alt="Portfolio Platform" className="project-image" />
+          <img src={Project1Img} alt="Portfolio Platform" className="project-image" />
           <div className="project-meta">
             <span className="project-role">Full-stack Developer</span>
             <span className="project-duration">2025.01 - 2025.02</span>
@@ -49,7 +49,7 @@ export default function Projects() {
 
       <div className="project-card">
         <div className="project-media">
-          <img src={project2Img} alt="Opinion Analysis" className="project-image" />
+          <img src={Project2Img} alt="Opinion Analysis" className="project-image" />
           <div className="project-meta">
             <span className="project-role">Project Leader</span>
             <span className="project-duration">2021.09 - 2023.06</span>
@@ -80,7 +80,7 @@ export default function Projects() {
 
       <div className="project-card">
         <div className="project-media">
-          <img src={project3Img} alt="Auto Analytics" className="project-image" />
+          <img src={Project3Img} alt="Auto Analytics" className="project-image" />
           <div className="project-meta">
             <span className="project-role">Data Engineer</span>
             <span className="project-duration">2023.02 - 2023.05</span>
