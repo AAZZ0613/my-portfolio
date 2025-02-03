@@ -3,27 +3,39 @@
 /* Student Number: 301480676 */
 /* Date: 2025-02-02 */
 /* This is the css file for the Home page. */
+/* The Home page is the first page that the user sees when they visit the website. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   background: linear-gradient(135deg, #3498db, #8e44ad);
   color: white;
   text-align: center;
   padding: 0 2rem;
 }
 
-/* Hero content */
 .hero-content {
   max-width: 800px;
+  width: 100%;
   padding: 4rem 2rem;
   margin: 0 auto;
 }
 
-/* Header Styling */
 .hero h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 6vw, 3rem);
   margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -31,16 +43,14 @@
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Paragraph Styling */
 .hero p {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   margin-bottom: 2rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.6;
 }
 
-/* Button Styling */
 .hero button {
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -51,9 +61,8 @@
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: bold;
-  width: auto; 
+  width: auto;
 }
-
 
 .hero button:hover {
   background-color: #1f6fa0;
@@ -64,7 +73,6 @@
   outline: none;
   box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.6);
 }
-
 
 @media (max-width: 768px) {
   .hero {
@@ -89,9 +97,10 @@
 
   .hero button {
     width: 100%;
-    max-width: 300px;
-    padding: 0.8rem;
+    max-width: none;
+    padding: 1rem;
     font-size: 1rem;
     border-radius: 25px;
+    margin: 0 10px;
   }
 }
