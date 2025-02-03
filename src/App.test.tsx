@@ -1,3 +1,7 @@
+/*App.test.tsx*/
+/*Student name: Rui Sun */
+/*Student Number: 301480676*/
+/*Date: 2025-02-02*/
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';

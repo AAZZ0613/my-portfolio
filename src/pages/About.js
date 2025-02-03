@@ -1,3 +1,9 @@
+/*About.js*/
+/*Student name: Rui Sun */
+/*Student Number: 301480676*/
+/*Date: 2025-02-02*/
+/*Description: This is the About page of the portfolio website. 
+It contains the profile picture, name, specialization, and resume download/view buttons.*/
 import React from 'react';
 import profileImage from 'D:/JavaScript_Class/my-portfolio/src/picture.jpg';
 import './About.css';

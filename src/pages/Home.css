@@ -1,0 +1,85 @@
+/*Home.css*/
+/*Student name: Rui Sun */
+/*Student Number: 301480676*/
+/*Date: 2025-02-02*/
+/*This is the css file for the Home page.*/
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* 渐变背景 */
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  /* Hero content */
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  /* Header Styling */
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Paragraph Styling */
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #1f6fa0;
+    transform: translateY(-3px);
+  }
+  
+  /* Button Focus Effect */
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.6);
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 0 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 0.8rem 1.8rem;
+    }
+  }
+  

@@ -1,4 +1,7 @@
-// App.js
+/*App.js*/
+/*Student name: Rui Sun */
+/*Student Number: 301480676*/
+/*Date: 2025-02-02*/
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';

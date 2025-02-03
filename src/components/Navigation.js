@@ -1,3 +1,7 @@
+/*Navigation.js*/
+/*Student name: Rui Sun */
+/*Student Number: 301480676*/
+/*Date: 2025-02-02*/
 import { Link } from 'react-router-dom';
 import { FiHome, FiUser, FiBriefcase, FiMail, FiCode } from 'react-icons/fi';
 import logo from 'D:/JavaScript_Class/my-portfolio/src/assets/images/logo.svg';
