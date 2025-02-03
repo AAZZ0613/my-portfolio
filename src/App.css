@@ -2,21 +2,25 @@
 /*Student name: Rui Sun */
 /*Student Number: 301480676*/
 /*Date: 2025-02-02*/
+/* Center-aligns text content within elements using the App class */
 .App {
   text-align: center;
 }
 
+/* Sets the logo height and disables pointer events */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Applies an animation for spinning the logo if motion preferences allow */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styles for the header section, including background, layout, and text */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,10 +32,12 @@
   color: white;
 }
 
+/* Styles for links within the App */
 .App-link {
   color: #61dafb;
 }
 
+/* Defines the keyframes for the logo spin animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,10 +46,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Adds a smooth transition effect for buttons and elements with the resume-link class */
 button, .resume-link {
   transition: all 0.3s;
 }
 
+/* Slightly scales up buttons when hovered over */
 button:hover {
   transform: scale(1.05);
 }

@@ -1,32 +1,37 @@
-/*Home.css*/
+/* Home.css */
 /* Student name: Rui Sun */
 /* Student Number: 301480676 */
 /* Date: 2025-02-02 */
-/* This is the css file for the Home page. */
+/* This is the CSS file for the Home page. */
 /* The Home page is the first page that the user sees when they visit the website. */
+
+/* Resets box model properties */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Base styles for full viewport */
 html, body {
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
+/* Hero section styling */
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  display: flex; /* Centers content using Flexbox */
+  justify-content: center; /* Aligns content horizontally */
+  align-items: center; /* Aligns content vertically */
+  min-height: 100vh; /* Ensures the section covers the full height of the viewport */
   width: 100%;
-  background: linear-gradient(135deg, #3498db, #8e44ad);
+  background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradient background */
   color: white;
   text-align: center;
   padding: 0 2rem;
 }
 
+/* Hero content container */
 .hero-content {
   max-width: 800px;
   width: 100%;
@@ -34,23 +39,26 @@ html, body {
   margin: 0 auto;
 }
 
+/* Hero heading styles */
 .hero h1 {
-  font-size: clamp(2rem, 6vw, 3rem);
+  font-size: clamp(2rem, 6vw, 3rem); /* Responsive font size */
   margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Text shadow for better contrast */
 }
 
+/* Hero paragraph styles */
 .hero p {
-  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-size: clamp(1rem, 3vw, 1.2rem); /* Responsive font size */
   margin-bottom: 2rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.6;
 }
 
+/* Hero button styles */
 .hero button {
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -59,21 +67,22 @@ html, body {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; /* Smooth hover effect */
   font-weight: bold;
   width: auto;
 }
 
 .hero button:hover {
-  background-color: #1f6fa0;
-  transform: translateY(-3px);
+  background-color: #1f6fa0; /* Button hover background */
+  transform: translateY(-3px); /* Subtle hover animation */
 }
 
 .hero button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.6);
+  box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.6); /* Focus ring */
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   .hero {
     padding: 0 1rem;
@@ -96,7 +105,7 @@ html, body {
   }
 
   .hero button {
-    width: 100%;
+    width: 100%; /* Full-width button for smaller screens */
     max-width: none;
     padding: 1rem;
     font-size: 1rem;

@@ -1,77 +1,77 @@
-/*Service.js*/
-/*Student name: Rui Sun */
-/*Student Number: 301480676*/
-/*Date: 2025-02-02*/
-/*This is the css file for the service page. */
+/*Service.css*/
+/* Student name: Rui Sun */
+/* Student Number: 301480676 */
+/* Date: 2025-02-02 */
+/* Description: This is the css file for the service page. */
+
 /* General Styles */
 .services-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .services-header {
-    font-size: 2.5rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .services-intro {
-    text-align: center;
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
-  
-  /* Service Card Styles */
-  .service {
-    background-color: #f9f9f9;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .service-title {
-    font-size: 1.8rem;
-    color: #2c3e50;
-    margin-bottom: 1rem;
-  }
-  
-  .service-description {
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-  
-  .service-details {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 1.5rem;
-  }
-  
-  .service-details li {
-    font-size: 1.1rem;
-    color: #34495e;
-    margin-bottom: 0.5rem;
-    padding-left: 1.2rem;
-    position: relative;
-  }
-  
-  .service-details li::before {
-    content: '✔';
-    position: absolute;
-    left: 0;
-    color: #2ecc71;
-  }
-  
-  .service-conclusion {
-    font-size: 1.1rem;
-    color: #555;
-    font-style: italic;
-    text-align: center;
-  }
-  
+  max-width: 1200px; /* Sets the maximum width of the service container */
+  margin: 0 auto; /* Centers the container */
+  padding: 2rem; /* Adds padding inside the container */
+  font-family: 'Arial', sans-serif; /* Specifies font family */
+}
+
+.services-header {
+  font-size: 2.5rem; /* Sets font size for the header */
+  color: #333; /* Dark grey color for the header text */
+  text-align: center; /* Centers the header text */
+  margin-bottom: 1rem; /* Adds space below the header */
+}
+
+.services-intro {
+  text-align: center; /* Centers the intro text */
+  font-size: 1.1rem; /* Sets the font size for the intro text */
+  color: #555; /* Medium grey color for the text */
+  margin-bottom: 2rem; /* Adds space below the intro text */
+}
+
+/* Service Card Styles */
+.service {
+  background-color: #f9f9f9; /* Light grey background for the service cards */
+  padding: 2rem; /* Adds padding inside each service card */
+  margin-bottom: 1.5rem; /* Adds space between each service card */
+  border-radius: 8px; /* Rounds the corners of the cards */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the cards */
+}
+
+.service-title {
+  font-size: 1.8rem; /* Sets font size for the service title */
+  color: #2c3e50; /* Dark blue-grey color for the title */
+  margin-bottom: 1rem; /* Adds space below the title */
+}
+
+.service-description {
+  font-size: 1.1rem; /* Sets font size for the description */
+  color: #555; /* Medium grey color for the text */
+  line-height: 1.6; /* Sets line height for better readability */
+  margin-bottom: 1.5rem; /* Adds space below the description */
+}
+
+.service-details {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0; /* Removes padding */
+  margin-bottom: 1.5rem; /* Adds space below the list */
+}
+
+.service-details li {
+  font-size: 1.1rem; /* Sets font size for each list item */
+  color: #34495e; /* Dark grey color for list items */
+  margin-bottom: 0.5rem; /* Adds space between each list item */
+  padding-left: 1.2rem; /* Adds left padding to create space for the check mark */
+  position: relative; /* Allows absolute positioning for the check mark */
+}
+
+.service-details li::before {
+  content: '✔'; /* Adds a check mark before each list item */
+  position: absolute; /* Positions the check mark absolutely */
+  left: 0; /* Positions the check mark at the far left */
+  color: #2ecc71; /* Green color for the check mark */
+}
+
+.service-conclusion {
+  font-size: 1.1rem; /* Sets font size for the conclusion text */
+  color: #555; /* Medium grey color for the text */
+  font-style: italic; /* Makes the conclusion text italic */
+  text-align: center; /* Centers the conclusion text */
+}

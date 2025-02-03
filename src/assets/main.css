@@ -2,32 +2,36 @@
 /*Student name: Rui Sun */
 /*Student Number: 301480676*/
 /*Date: 2025-02-02*/
+/* Style for the navbar container, including padding, background color, and alignment */
 .navbar {
-    padding: 1rem;
-    background: #2c3e50;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #ecf0f1;
-  }
-  
-  .nav-menu {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-  }
-  
-  .nav-menu a {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+  padding: 1rem;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the logo link, with font size, weight, and color */
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+/* Style for the navigation menu, using flexbox and spacing between items */
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+/* Style for navigation links, including color, text decoration, and alignment */
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

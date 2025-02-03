@@ -1,79 +1,84 @@
-/*Contact.css*/
-/*Student name: Rui Sun */
-/*Student Number: 301480676*/
-/*Date: 2025-02-02*/
+/* Contact.css */
+/* Student name: Rui Sun */
+/* Student Number: 301480676 */
+/* Date: 2025-02-02 */
+
+/* Style for the contact container, setting a maximum width, padding, and background */
 .contact-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  width: 100%;
+  max-width: 600px; /* Limits the width of the contact form */
+  margin: 0 auto; /* Centers the form */
+  padding: 2rem; /* Adds padding inside the container */
+  background-color: #f8f8f8; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+  text-align: center; /* Centers the text */
+}
+
+/* Styling the header (h1) with font size, color, and margin */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333; /* Dark text color */
+}
+
+/* Style for the contact form, making it a vertical layout with spacing */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Spacing between form fields */
+}
+
+/* Grouping input fields with some margin and alignment */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Styling the input fields and text area, with padding and border */
+.input-field {
+  width: 100%; /* Takes full width of the container */
+  padding: 1rem; /* Adds padding inside the field */
+  margin: 0.5rem 0; /* Adds margin between fields */
+  font-size: 1rem;
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+}
+
+/* Focus effect for the input fields and text area */
+.input-field:focus {
+  border-color: #3498db; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Subtle glow effect */
+  outline: none; /* Removes the default outline */
+}
+
+/* Styling for the submit button with padding, color, and hover effect */
+.submit-btn {
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the submit button */
+.submit-btn:hover {
+  background-color: #2980b9; /* Darker blue when hovered */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 1.5rem; /* Reduces padding on smaller screens */
   }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: #333;
-  }
-  
-  /* Form Styles */
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .input-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
+
   .input-field {
-    width: 100%;
-    padding: 1rem;
-    margin: 0.5rem 0;
-    font-size: 1rem;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-sizing: border-box;
-    transition: border-color 0.3s, box-shadow 0.3s;
+      font-size: 0.9rem; /* Slightly smaller text size on smaller screens */
   }
-  
-  /* Input and textarea focus effect */
-  .input-field:focus {
-    border-color: #3498db;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
-    outline: none;
-  }
-  
-  /* Submit Button */
-  .submit-btn {
-    padding: 1rem;
-    font-size: 1.1rem;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .submit-btn:hover {
-    background-color: #2980b9;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .contact-container {
-      padding: 1.5rem;
-    }
-    
-    .input-field {
-      font-size: 0.9rem;
-    }
-  }
-  
+}

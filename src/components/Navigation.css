@@ -2,6 +2,7 @@
 /*Student name: Rui Sun */
 /*Student Number: 301480676*/
 /*Date: 2025-02-02*/
+/* Style for the navbar container, using flexbox for layout, with spacing and background color */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,12 +10,13 @@
   background: white;
 }
 
+/* Style for the navigation links container, using flexbox and gap for spacing */
 .nav-links {
   display: flex;
   gap: 2rem;
 }
 
-
+/* Media query to hide navigation links on screens smaller than 768px */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
